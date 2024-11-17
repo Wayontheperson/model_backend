@@ -1,6 +1,6 @@
 import numpy as np
 from PIL import Image
-import tflite_runtime.interpreter as tflite
+
 
 # CIFAR-100 클래스 정보
 CIFAR100_CLASSES = [

@@ -1,8 +1,7 @@
 from fastapi import APIRouter, UploadFile, Form, BackgroundTasks
 from fastapi.responses import JSONResponse
 from app.models.tflite_model import model
-
-# from app.workers.request_worker import request_queue
+from app.workers.request_worker import request_queue
 
 router = APIRouter()
 
