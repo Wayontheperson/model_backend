@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "model-backend"
+version = "0.1.0"
+description = ""
+authors = ["Jh Park"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.5"
+tensorflow = "^2.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
